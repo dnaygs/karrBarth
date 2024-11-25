@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pawesome.Server", "Pawesome.Server\Pawesome.Server.csproj", "{90B224B7-F7EA-4330-B240-559CB0EA5B57}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "pawesome.client", "pawesome.client\pawesome.client.esproj", "{5CCBFD88-6DEC-4D1F-AC00-0E25E351F598}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90B224B7-F7EA-4330-B240-559CB0EA5B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B224B7-F7EA-4330-B240-559CB0EA5B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B224B7-F7EA-4330-B240-559CB0EA5B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B224B7-F7EA-4330-B240-559CB0EA5B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CCBFD88-6DEC-4D1F-AC00-0E25E351F598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCBFD88-6DEC-4D1F-AC00-0E25E351F598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCBFD88-6DEC-4D1F-AC00-0E25E351F598}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5CCBFD88-6DEC-4D1F-AC00-0E25E351F598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCBFD88-6DEC-4D1F-AC00-0E25E351F598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CCBFD88-6DEC-4D1F-AC00-0E25E351F598}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

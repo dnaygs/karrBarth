@@ -1,0 +1,6 @@
+@Pawesome.Server_HostAddress = http://localhost:5160
+
+GET {{Pawesome.Server_HostAddress}}/Dogs/
+Accept: application/json
+
+###

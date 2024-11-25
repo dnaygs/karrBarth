@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  color: #00796b;
+  padding: 20px;
+  display: flex;  
+  justify-content: left;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #00796b;
+}
+
+.container {
+    width:auto;
+  display: flex;
+}
+
+.leftContainer {
+  width: fit-content;
+  height: 800px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin:5px;
+}
+
+.rightContainer {
+  flex-grow: 1;
+  width:fit-content;
+  height:fit-content;
+  margin: 5px;
+}
+
+
+.dog-breeds {
+  list-style-type: none;
+  padding: 0;
+}
+
+  .dog-breeds li {
+    font-size: 1.2em;
+    color: #0288d1; 
+    background-color: #b3e5fc;
+  }
+
+    .dog-breeds li:hover {
+      background-color: #039be5;
+      color: white;
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
