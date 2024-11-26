@@ -28,7 +28,7 @@ h1 {
 
 .rightContainer {
   flex-grow: 1;
-  width:fit-content;
+  width:300px;
   height:fit-content;
   margin: 5px;
 }
@@ -62,3 +62,9 @@ h1 {
     background-color: #aef8e0
   }
 
+.imgContainer {
+  flex-grow: 1;
+  width: 800px;
+  height: fit-content;
+  margin: 5px;
+}
