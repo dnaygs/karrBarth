@@ -33,7 +33,6 @@ h1 {
   margin: 5px;
 }
 
-
 .dog-breeds {
   list-style-type: none;
   padding: 0;
@@ -51,4 +50,15 @@ h1 {
       transform: scale(1.05);
       cursor: pointer;
     }
+
+.dog-breed-type {
+  list-style-type: none;
+  padding: 0;
+}
+
+  .dog-breed-type li {
+    font-size: 1.2em;
+    color: #023020;
+    background-color: #aef8e0
+  }
 

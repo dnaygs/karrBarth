@@ -1,5 +1,4 @@
 <div class="container">
-
   <div class="leftContainer">
     <h1>Dog Breeds</h1>
     <ul class="dog-breeds" *ngFor="let dog of dogs">
@@ -10,12 +9,12 @@
     <h1>
       {{(subBreedHeader)}}
     </h1>
-    <ul class="dog-breeds" *ngFor="let value of selectedBreed">
-      <li class="dog-breeds">{{ value }}</li>
+    <ul class="dog-breed-type" *ngFor="let value of selectedBreed">
+      <li class="dog-breed-type">{{ value }}</li>
     </ul>
   </div>
   <img class="rightContainer" [src]="(imagesource)" />
 </div>
 
-  
-  
+
+
